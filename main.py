@@ -77,6 +77,78 @@ TEXT = {
 }
 
 
+UI = {
+ 'fa': {
+  'lang_prompt':'🌐 زبان را انتخاب کنید:', 'blocked':'⛔ حساب شما توسط مدیر مسدود شده است.',
+  'welcome':'به Taskly Bot خوش آمدید.', 'balance':'💰 موجودی: ${:.4f} USDT',
+  'tasks_empty':'فعلاً تسک جدیدی برای شما موجود نیست.', 'use_menu':'از منو استفاده کن 👇',
+  'withdraw':'💸 برداشت','withdraw_method':'روش برداشت را انتخاب کن:','usdt':'💵 USDT BEP20',
+  'min_withdraw':'حداقل برداشت: ${:.2f}','profile':'👤 پروفایل','referral':'👥 رفرال',
+  'referral_commission':'💵 کمیسیون رفرال: ۱۰٪ از پاداش تسک کاربر دعوت‌شده',
+  'rank':'🏆 رتبه‌بندی ۲۴ ساعت اخیر','promo':'🛒 خرید سابسکرایبر',
+  'promo_intro':'شبکه موردنظر را انتخاب کن. قیمت هر شبکه همین‌جا مشخص است:',
+  'promo_payment':'پرداخت خرید با USDT BEP20 مستقیم به آدرس پرداخت سیستم انجام می‌شود و وارد موجودی نمی‌شود.',
+  'choose':'انتخاب کن','network':'شبکه','price':'قیمت','target':'🔗 لینک کانال/پروفایل مقصد را بفرست.',
+  'quantity':'تعداد سابسکرایبر را انتخاب کن:','custom_qty':'✏️ تعداد دلخواه','cancel':'❌ لغو',
+  'invalid_link':'❌ لینک نامعتبر است. لینک باید با https:// یا http:// شروع شود.',
+  'invalid_amount':'❌ مقدار صحیح وارد کن. مثال: 2','checking':'🔎 در حال بررسی موجودی شما...',
+  'insufficient':'❌ موجودی کافی نیست. موجودی شما: ${:.4f} USDT\n💸 درخواست شما: ${:.4f} USDT',
+  'address_ok':'✅ آدرس دریافت شد.','send_amount':'حالا مقدار برداشت را به دلار بفرست.\nمثال: 2',
+  'wallet_prompt':'آدرس کیف پول BEP20 خودت را بفرست.\nمثال: 0x...',
+  'wallet_bad':'❌ آدرس صحیح نیست. آدرس BEP20 باید با 0x شروع شود و 40 کاراکتر هگز داشته باشد.',
+  'order_target':'بعد از انتخاب شبکه، لینک کانال/پروفایل مقصد را وارد کن.',
+ },
+ 'en': {
+  'lang_prompt':'🌐 Choose your language:', 'blocked':'⛔ Your account has been blocked by the admin.',
+  'welcome':'Welcome to Taskly Bot.', 'balance':'💰 Balance: ${:.4f} USDT',
+  'tasks_empty':'There are no new tasks available for you right now.', 'use_menu':'Please use the menu 👇',
+  'withdraw':'💸 Withdraw','withdraw_method':'Choose Withdraw Method:','usdt':'💵 USDT BEP20',
+  'min_withdraw':'Minimum withdrawal: ${:.2f}','profile':'👤 Profile','referral':'👥 Referral',
+  'referral_commission':'💵 Referral commission: 10% of the invited user’s task reward',
+  'rank':'🏆 Ranking — last 24 hours','promo':'🛒 Buy Subscribers',
+  'promo_intro':'Choose a network. The price for each network is shown below:',
+  'promo_payment':'Payment for purchases is sent in USDT BEP20 directly to the system payment address and is not added to your balance.',
+  'choose':'Choose','network':'Network','price':'Price','target':'🔗 Send the target channel/profile link.',
+  'quantity':'Choose the subscriber quantity:','custom_qty':'✏️ Custom quantity','cancel':'❌ Cancel',
+  'invalid_link':'❌ Invalid link. It must start with https:// or http://.',
+  'invalid_amount':'❌ Enter a valid amount. Example: 2','checking':'🔎 Checking your balance...',
+  'insufficient':'❌ Insufficient balance. Your balance: ${:.4f} USDT\n💸 Requested: ${:.4f} USDT',
+  'address_ok':'✅ Wallet address received.','send_amount':'Now enter the withdrawal amount.\nExample: 2',
+  'wallet_prompt':'Send your BEP20 wallet address.\nExample: 0x...',
+  'wallet_bad':'❌ Invalid address. A BEP20 address must start with 0x and contain 40 hexadecimal characters.',
+  'order_target':'After choosing a network, send the target channel/profile link.',
+ },
+ 'hi': {
+  'lang_prompt':'🌐 अपनी भाषा चुनें:', 'blocked':'⛔ आपका खाता एडमिन द्वारा ब्लॉक किया गया है।',
+  'welcome':'Taskly Bot में आपका स्वागत है।', 'balance':'💰 बैलेंस: ${:.4f} USDT',
+  'tasks_empty':'अभी आपके लिए कोई नया टास्क उपलब्ध नहीं है।', 'use_menu':'कृपया मेनू का उपयोग करें 👇',
+  'withdraw':'💸 निकासी','withdraw_method':'निकासी का तरीका चुनें:','usdt':'💵 USDT BEP20',
+  'min_withdraw':'न्यूनतम निकासी: ${:.2f}','profile':'👤 प्रोफ़ाइल','referral':'👥 रेफरल',
+  'referral_commission':'💵 रेफरल कमीशन: आमंत्रित उपयोगकर्ता के टास्क रिवॉर्ड का 10%',
+  'rank':'🏆 रैंकिंग — पिछले 24 घंटे','promo':'🛒 सब्सक्राइबर खरीदें',
+  'promo_intro':'नेटवर्क चुनें। हर नेटवर्क की कीमत नीचे दिखाई गई है:',
+  'promo_payment':'खरीद का भुगतान USDT BEP20 में सीधे सिस्टम के भुगतान पते पर जाता है और आपके बैलेंस में नहीं जुड़ता।',
+  'choose':'चुनें','network':'नेटवर्क','price':'कीमत','target':'🔗 टारगेट चैनल/प्रोफ़ाइल का लिंक भेजें।',
+  'quantity':'सब्सक्राइबर की संख्या चुनें:','custom_qty':'✏️ कस्टम संख्या','cancel':'❌ रद्द करें',
+  'invalid_link':'❌ लिंक गलत है। यह https:// या http:// से शुरू होना चाहिए।',
+  'invalid_amount':'❌ सही राशि दर्ज करें। उदाहरण: 2','checking':'🔎 आपका बैलेंस जांचा जा रहा है...',
+  'insufficient':'❌ बैलेंस पर्याप्त नहीं है। आपका बैलेंस: ${:.4f} USDT\n💸 अनुरोधित: ${:.4f} USDT',
+  'address_ok':'✅ वॉलेट पता मिल गया।','send_amount':'अब निकासी की राशि दर्ज करें।\nउदाहरण: 2',
+  'wallet_prompt':'अपना BEP20 वॉलेट पता भेजें।\nउदाहरण: 0x...',
+  'wallet_bad':'❌ पता गलत है। BEP20 पता 0x से शुरू होना चाहिए और 40 hexadecimal characters होना चाहिए।',
+  'order_target':'नेटवर्क चुनने के बाद टारगेट चैनल/प्रोफ़ाइल का लिंक भेजें।',
+ }
+}
+
+def tr(lang, key, *args):
+    text = UI.get(lang, UI['fa']).get(key, UI['fa'].get(key, key))
+    return text.format(*args) if args else text
+
+async def user_lang(uid):
+    u=await get_user(uid)
+    return u[2] if u and u[2] in UI else 'fa'
+
+
 def user_menu(lang, admin=False):
     t = TEXT.get(lang, TEXT['fa'])
     kb = ReplyKeyboardBuilder()
@@ -221,16 +293,18 @@ async def verify_bep20_usdt_payment(txid: str, expected_amount: float):
 @dp.message(CommandStart())
 async def start(message: Message):
     u = await ensure_user(message)
-    if u[6]:
-        return await message.answer('⛔ حساب شما توسط مدیر مسدود شده است.')
-    await message.answer('زبان را انتخاب کنید / Select language / भाषा चुनें', reply_markup=language_keyboard())
+    if u[6] and not is_admin(message.from_user.id):
+        return await message.answer(tr(u[2], 'blocked'))
+    if u[2] in UI and u[2] != 'fa':
+        return await message.answer(tr(u[2], 'welcome'), reply_markup=user_menu(u[2], is_admin(message.from_user.id)))
+    await message.answer(tr('fa', 'lang_prompt'), reply_markup=language_keyboard())
 
 
 @dp.callback_query(F.data.startswith('lang:'))
 async def language(call: CallbackQuery):
     lang = call.data.split(':')[1]
     await set_language(call.from_user.id, lang)
-    await call.message.answer(TEXT[lang]['welcome'], reply_markup=user_menu(lang, is_admin(call.from_user.id)))
+    await call.message.answer(tr(lang, 'welcome'), reply_markup=user_menu(lang, is_admin(call.from_user.id)))
     await call.answer()
 
 
@@ -449,11 +523,12 @@ async def promo_start(call: CallbackQuery, state: FSMContext):
     await state.clear()
     await state.set_state(OrderState.network)
     kb = await promo_network_keyboard_with_prices()
-    lines = ['🛒 خرید سابسکرایبر', '', 'شبکه موردنظر را انتخاب کن. قیمت هر شبکه همین‌جا مشخص است:', '']
+    lang = await user_lang(call.from_user.id)
+    lines = [tr(lang,'promo'), '', tr(lang,'promo_intro'), '']
     for n in NETWORKS:
         price = await get_network_price(n, DEFAULT_SUBSCRIBER_PRICE)
         lines.append(f'• {n}: ${price:.4f} برای هر عدد')
-    lines += ['', 'بعد از انتخاب شبکه، لینک کانال/پروفایل را وارد می‌کنی؛ مدیریت کانال‌ها فقط در پنل ادمین است.']
+    lines += ['', tr(lang,'order_target'), tr(lang,'promo_payment')]
     await call.message.answer('\n'.join(lines), reply_markup=kb)
     await call.answer()
 
@@ -467,9 +542,10 @@ async def order_network(call: CallbackQuery, state: FSMContext):
     await state.clear()
     await state.update_data(network=network, price=price)
     await state.set_state(OrderState.target)
+    lang = await user_lang(call.from_user.id)
     await call.message.answer(
-        f'🌐 {network}\n💵 قیمت: ${price:.4f} برای هر سابسکرایبر\n\n'
-        '🔗 لینک کانال/پروفایل مقصد را بفرست.\nمثال: https://t.me/yourchannel',
+        f'🌐 {network}\n💵 {tr(lang,"price")}: ${price:.4f} / subscriber\n\n'
+        f'{tr(lang,"target")}\nExample: https://t.me/yourchannel',
         reply_markup=cancel_keyboard()
     )
     await call.answer()
@@ -479,7 +555,7 @@ async def order_network(call: CallbackQuery, state: FSMContext):
 async def order_target(message: Message, state: FSMContext):
     url = (message.text or '').strip()
     if not url.startswith(('http://', 'https://')):
-        return await message.answer('❌ لینک نامعتبر است. لینک باید با https:// یا http:// شروع شود.')
+        return await message.answer(tr(await user_lang(message.from_user.id), 'invalid_link'))
     d = await state.get_data()
     await state.update_data(target=url)
     await state.set_state(OrderState.quantity)
@@ -656,7 +732,7 @@ async def withdraw_command(message: Message, state: FSMContext):
 async def withdraw_wallet(message: Message, state: FSMContext):
     wallet = (message.text or '').strip()
     if not HEX40.fullmatch(wallet):
-        return await message.answer('❌ آدرس صحیح نیست. آدرس BEP20 باید با 0x شروع شود و 40 کاراکتر هگز داشته باشد.')
+        return await message.answer(tr(await user_lang(message.from_user.id), 'wallet_bad'))
     u = await get_user(message.from_user.id)
     balance = float(u[3]) if u else 0.0
     min_w = float(await get_setting('min_withdraw', MIN_WITHDRAW))
@@ -665,8 +741,9 @@ async def withdraw_wallet(message: Message, state: FSMContext):
         return await message.answer(f'❌ موجودی کافی نیست. موجودی شما ${balance:.4f} USDT است؛ حداقل برداشت ${min_w:.2f} است.')
     await state.update_data(wallet=wallet)
     await state.set_state(WithdrawState.amount)
+    lang = await user_lang(message.from_user.id)
     await message.answer(
-        f'✅ آدرس دریافت شد.\n\n💰 موجودی قابل برداشت: ${balance:.4f} USDT\n\nحالا مقدار برداشت را به دلار بفرست.\nمثال: 2',
+        tr(lang,'address_ok')+f'\n\n'+tr(lang,'balance',balance)+f'\n\n'+tr(lang,'send_amount'),
         reply_markup=cancel_keyboard()
     )
 
@@ -685,11 +762,11 @@ async def withdraw_amount(message: Message, state: FSMContext):
         return await message.answer('❌ مقدار باید بیشتر از صفر باشد.')
 
     # Explicit balance check before reserving funds.
-    await message.answer('🔎 در حال بررسی موجودی شما...')
+    await message.answer(tr(await user_lang(message.from_user.id), 'checking'))
     u = await get_user(message.from_user.id)
     balance = float(u[3]) if u else 0.0
     if amount > balance:
-        return await message.answer(f'❌ موجودی کافی نیست.\n💰 موجودی شما: ${balance:.4f} USDT\n💸 درخواست شما: ${amount:.4f} USDT')
+        return await message.answer(tr(await user_lang(message.from_user.id), 'insufficient', balance, amount))
 
     d = await state.get_data()
     wid = await create_withdrawal(message.from_user.id, amount, d['wallet'])
@@ -754,6 +831,14 @@ async def withdraw_no(call: CallbackQuery):
 
 
 # ---------------- ADMIN ----------------
+@dp.message(Command('unblockme'))
+async def unblock_me(message: Message):
+    if not is_admin(message.from_user.id):
+        return await message.answer('دسترسی ندارید.')
+    await set_blocked(message.from_user.id, False)
+    await message.answer('✅ حساب مدیر رفع مسدودی شد.', reply_markup=user_menu((await user_lang(message.from_user.id)), True))
+
+
 @dp.message(Command('admin'))
 async def admin_command(message: Message):
     if not is_admin(message.from_user.id): return await message.answer('دسترسی ندارید.')
@@ -864,7 +949,12 @@ async def task_toggle(call: CallbackQuery):
 @dp.callback_query(F.data.startswith('user:block:'))
 async def admin_user_block(call: CallbackQuery):
     if not is_admin(call.from_user.id): return await call.answer('دسترسی ندارید.', show_alert=True)
-    _, _, uid, value = call.data.split(':'); await set_blocked(int(uid), bool(int(value))); await call.answer('انجام شد.')
+    _, _, uid, value = call.data.split(':')
+    target_uid = int(uid)
+    if target_uid == ADMIN_ID:
+        return await call.answer('👑 ادمین اصلی قابل مسدود شدن نیست.', show_alert=True)
+    await set_blocked(target_uid, bool(int(value)))
+    await call.answer('انجام شد.')
 
 
 @dp.callback_query(F.data.startswith('user:bal:'))
@@ -907,17 +997,17 @@ async def cancel(call: CallbackQuery, state: FSMContext):
 @dp.message()
 async def router(message: Message):
     u = await ensure_user(message)
-    if u[6]: return await message.answer('⛔ حساب شما مسدود است.')
+    if u[6] and not is_admin(message.from_user.id): return await message.answer(tr(u[2], 'blocked'))
     lang = u[2] if u[2] in TEXT else 'fa'; t = TEXT[lang]
     if message.text == t['balance']:
-        await message.answer(f'💰 Balance: ${u[3]:.4f} USDT')
+        await message.answer(tr(lang, 'balance', u[3]))
     elif message.text == t['profile']:
         me = await message.bot.get_me()
         ref_link = f'https://t.me/{me.username}?start=ref_{u[4]}' if me.username else f'ref_{u[4]}'
-        await message.answer(f'👤 @{u[1] or "user"}\n🆔 {u[0]}\n💰 ${u[3]:.4f} USDT\n\n🎁 Referral Code: {u[4]}\n🔗 Referral Link: {ref_link}\n💵 کمیسیون رفرال: 10% از پاداش تسک دعوت‌شده')
+        await message.answer((f'👤 @{u[1] or "user"}\n🆔 {u[0]}\n'+tr(lang,'balance',u[3])+f'\n\n🎁 Referral Code: {u[4]}\n🔗 Referral Link: {ref_link}\n{tr(lang,'referral_commission')}'))
     elif message.text == t['tasks']:
         rows = await available_tasks(message.from_user.id)
-        if not rows: return await message.answer('فعلاً تسک جدیدی برای شما موجود نیست.')
+        if not rows: return await message.answer(tr(lang, 'tasks_empty'))
         for r in rows:
             kb = InlineKeyboardBuilder(); kb.button(text='🔥 انجام تسک', callback_data=f'task:open:{r[0]}')
             await message.answer(f'#{r[0]} | {r[1]}\n📝 {r[2]}\n💰 +${r[4]:.4f}\n👥 {r[7]}/{r[5]}', reply_markup=kb.as_markup())
@@ -932,7 +1022,7 @@ async def router(message: Message):
             text = f'👥 کد رفرال شما: {u[4]}\n💵 کمیسیون: ۱۰٪ از پاداش تسک کاربر دعوت‌شده\n\n🔗 لینک دعوت:\n{ref_link}'
         await message.answer(text)
     elif message.text == t['rank']:
-        out = '🏆 رتبه‌بندی ۲۴ ساعت اخیر\n'
+        out = tr(lang, 'rank')+'\n'
         for i, r in enumerate(await leaderboard(), 1): out += f'\n{i}. @{r[1] or r[0]} — {r[2]} تسک'
         await message.answer(out)
     elif message.text == t['withdraw']:
@@ -942,7 +1032,7 @@ async def router(message: Message):
     elif message.text == t['promo']:
         await message.answer('🛒 خرید سابسکرایبر\n\nشبکه را انتخاب کن، نرخ هر شبکه را ببین، لینک مقصد را وارد کن و تعداد را انتخاب کن. پرداخت خرید با USDT BEP20 مستقیم به آدرس پرداخت سیستم انجام می‌شود و وارد Balance نمی‌شود.', reply_markup=InlineKeyboardBuilder().button(text='🛒 شروع سفارش', callback_data='promo:start').as_markup())
     elif message.text == t['language']:
-        await message.answer('🌐 زبان را انتخاب کن / Select language / भाषा चुनें', reply_markup=language_keyboard())
+        await message.answer(tr(lang, 'lang_prompt'), reply_markup=language_keyboard())
     elif is_admin(message.from_user.id) and message.text == t['admin']:
         await message.answer('👑 پنل مدیریت', reply_markup=admin_keyboard())
     else:
